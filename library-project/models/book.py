@@ -1,5 +1,5 @@
 class Book:
-    def __init__(self, id, name, actor_id) -> None:
+    def __init__(self, id, name, actor_id: int) -> None:
         self.id = id
         self.name = name
         self.actor_id = actor_id
